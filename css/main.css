@@ -1,0 +1,80 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: none;
+    outline: 0;
+    outline: thin dotted \9;
+}
+/* ----------------------------------------------------------- */
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.block{
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px dotted #dbdbdb;
+    margin-top: 50px;
+}
+/* Popup 1 */
+.popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0px;
+}
+.popup .popup-text{
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+/* Popup 2 */
+.popup-2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+}
+.popup-2 .popup-text-2{
+    width: 400px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 0 auto;
+}
