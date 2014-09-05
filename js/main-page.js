@@ -2,6 +2,10 @@ $(document).ready(function(){
     popup();
     popup_2();
 });
+$( window ).resize(function() {
+    popup();
+    popup_2();
+});
 function popup(){
     var pageHeight = $(window).height();
     var heigthOfPopup = $('.popup .popup-text').height() + 20;
